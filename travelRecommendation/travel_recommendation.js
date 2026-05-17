@@ -4,10 +4,7 @@ btnSearch.addEventListener('click', searchRecommendation);
 
 function searchRecommendation() {
 
-    const input = document.getElementById('conditionSearch')
-        .value
-        .toLowerCase()
-        .trim();
+    const input = document.getElementById('conditionSearch').value.toLowerCase().trim();
     document.getElementById('heroSection').style.display = 'none';
     const resultDiv = document.getElementById('result');
     resultDiv.innerHTML = '';
